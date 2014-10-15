@@ -1,0 +1,104 @@
+ // Bourbon & Neat
+@import '../../bower_components/bourbon/dist/bourbon';
+@import '../../bower_components/neat/app/assets/stylesheets/neat';
+
+// Custom Styles
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+.container {
+  margin: 50px auto 0 auto;
+  width: 200px;
+
+  background-color: #eee;
+  border-radius: 6px;
+  padding: 10px;
+
+}
+
+.circle{
+  height: 100px;
+  width:100px;
+  border-radius: 50%;
+  background-color: HSLA(230, 80%, 76%, 1);
+}
+
+
+.bounceOutLeft{
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+.square{
+  height: 100px;
+  width:100px;
+  background-color: HSLA(75, 66%, 51%, 1);
+
+  input{
+    height:100%;
+    width: 100%;
+  }
+}
+
+.zoomInLeft{
+  -webkit-animation-iteration-count: infinite;
+}
+
+.at{
+  height: 100px;
+  width:100px;
+  background:radial-gradient(#ff1493,blue);
+  font-size:100px;
+}
+
+.swing{
+  -webkit-animation-iteration-count: infinite;
+}
+
+.triangle{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 100px 100px 80px;
+  border-color: transparent transparent #00ffa2 transparent;
+}
+
+.rubberBand{
+  -webkit-animation-iteration-count: infinite;
+}
+
+.anbox{
+  height:90px;
+  width:100%;
+
+
+  p{
+    overflow:scroll;
+    height:40px;
+  }
+}
+
+
+.double{
+  width:100%;
+  height:100px;
+  background: linear-gradient(HSLA(180, 38%, 62%, 1),HSLA(346, 82%, 63%, 1),HSLA(199, 32%, 35%, 1)),
+}
+
+.flipOutY{
+  -webkit-animation-iteration-count: infinite;
+}
+
+.transf{
+  width:100%;
+  height:80px;
+  background-color:blue;
+}
+
+.transfclick{
+  transform:rotate(180deg);
+}
